@@ -1,0 +1,14 @@
+@import "./variable.scss";
+body {
+    background-color: var(--bg-color) !important;
+    color: var(--font-color) !important;
+  }
+  h1 {
+    color: var(--heading-color);
+  }
+  a {
+    color: var(--secondary-color);
+  }
+  .fa {
+    cursor: pointer;
+  }

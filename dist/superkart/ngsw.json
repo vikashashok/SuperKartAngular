@@ -1,0 +1,130 @@
+{
+  "configVersion": 1,
+  "timestamp": 1585641260230,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/5.9095d05a65522833071c.js",
+        "/favicon.ico",
+        "/firebase-messaging-sw.js",
+        "/index.html",
+        "/main.e3a7ac132f9a0a84734d.js",
+        "/manifest.webmanifest",
+        "/ngsw-worker.js",
+        "/polyfills-es5.1ee3ca2dbe8f2a7069bb.js",
+        "/polyfills.27cb71b6e02b7924e158.js",
+        "/runtime.c13b8bc3ed2dc68aad4f.js",
+        "/safety-worker.js",
+        "/scripts.fd12c80ebcc479d5730a.js",
+        "/styles.704fa1c4e77b8a3831f5.css",
+        "/worker-basic.min.js"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/1.jpg",
+        "/assets/2.jpg",
+        "/assets/3.jpg",
+        "/assets/4.jpg",
+        "/assets/5.jpg",
+        "/assets/6.jpg",
+        "/assets/7.jpg",
+        "/assets/8.jpg",
+        "/assets/banner-bg.jpg",
+        "/assets/f-p-1.png",
+        "/assets/f-p-2.png",
+        "/assets/f-p-3.png",
+        "/assets/f-p-4.png",
+        "/assets/f-p-5.png",
+        "/assets/fonts/Segoe UI Bold Italic.woff",
+        "/assets/fonts/Segoe UI Bold.woff",
+        "/assets/fonts/Segoe UI Italic.woff",
+        "/assets/fonts/Segoe UI.woff",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/logo.png",
+        "/assets/scss/_font.scss",
+        "/banner-bg.8e7db6897ed7119e728e.jpg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/5.9095d05a65522833071c.js": "184f6c64b99826effaf864e1aca54d82c8986f1b",
+    "/assets/1.jpg": "72f73a88f7f7793582ea20b2bcd7f1e73f77b670",
+    "/assets/2.jpg": "0d65f61818be994b52a9e0b85d20f01c627a9fa8",
+    "/assets/3.jpg": "6a479fcc3a214b57dd708666701a0c1b392d5cbb",
+    "/assets/4.jpg": "30f1eec7c13e35643438049073f7eb444fbd8266",
+    "/assets/5.jpg": "282a7841ba12ca84fa6f34b3c419d327755bb489",
+    "/assets/6.jpg": "1390f97c16d646e1164d105035220e364b041ce0",
+    "/assets/7.jpg": "70ae3cba092c92bd3c0ba2bdb66259ff726f9173",
+    "/assets/8.jpg": "3455a6031000a7f343f5fedc4cd2e25e47d141c4",
+    "/assets/banner-bg.jpg": "beba04213a5f0f1e6477bea6cba3256f7b7244db",
+    "/assets/f-p-1.png": "823d0e3bfafee6bc9cae9559b901342d550f59ca",
+    "/assets/f-p-2.png": "a36cfde65a543320e404f0f241486d0894bc5b64",
+    "/assets/f-p-3.png": "382beef9c6f1796ceb4cd4dc452e97de73a9a1ec",
+    "/assets/f-p-4.png": "74dc2b666527322e622ce3e0ce74314e6e2ac0de",
+    "/assets/f-p-5.png": "031b86ebf88db1d2cc9eca9ce39a086787b9f778",
+    "/assets/fonts/Segoe UI Bold Italic.woff": "70f72509f7a9e10aaf7eda7430a8145e7dad5bce",
+    "/assets/fonts/Segoe UI Bold.woff": "d58d3dc5ff86fe8ff594134df53ea9b8074f6bc6",
+    "/assets/fonts/Segoe UI Italic.woff": "d8f3bcecc4d31427eb0b29eb9803bad05840abc2",
+    "/assets/fonts/Segoe UI.woff": "77b8f3cb5410c779206782a310990c19af2b02ca",
+    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/assets/logo.png": "e0fad82e2b8fb7d6e447193b93e04500d4feadce",
+    "/assets/scss/_font.scss": "b58161d4515662b5e8ccd7dfd3c0d145b6862483",
+    "/banner-bg.8e7db6897ed7119e728e.jpg": "beba04213a5f0f1e6477bea6cba3256f7b7244db",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/firebase-messaging-sw.js": "50983aa962ded6bd31b515ccd68a7c9922d52b88",
+    "/index.html": "5606aa6473a9ea4a42ec91d5453f76e55aa62b71",
+    "/main.e3a7ac132f9a0a84734d.js": "2517b8637859cc4ea1805edc73464e7ac9450bf4",
+    "/manifest.webmanifest": "756c0a5cbad0b0c86227bbda24b582555dff2310",
+    "/ngsw-worker.js": "0c7aa53d4efb5e780c6c9b1d6a882d74668a896a",
+    "/polyfills-es5.1ee3ca2dbe8f2a7069bb.js": "358d121f2c73528ddd6abc912598525e9a69de6b",
+    "/polyfills.27cb71b6e02b7924e158.js": "935cd07207812428056613f1300d15a61e0220e4",
+    "/runtime.c13b8bc3ed2dc68aad4f.js": "5c2b362f563033d816204bc60c52075a74c79b07",
+    "/safety-worker.js": "ae5c8be3955e38edeeec09ed94b63d1e57f003c9",
+    "/scripts.fd12c80ebcc479d5730a.js": "247767d0800c47d01e7274b46c91c13a84428e71",
+    "/styles.704fa1c4e77b8a3831f5.css": "a3727f517621ef1a71b5647497d50749a781040e",
+    "/worker-basic.min.js": "ae5c8be3955e38edeeec09ed94b63d1e57f003c9"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}

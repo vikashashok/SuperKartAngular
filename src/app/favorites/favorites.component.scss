@@ -1,0 +1,23 @@
+@import "../../variable.scss";
+.nofav-msg {
+    text-align: center;
+    margin: 200px 0;
+    a {
+        color: #0163fa;
+    }
+}
+.fav-header {
+    margin: 30px 0 0 0;
+}
+.latest-prod {
+    display: flex;
+    margin: 0 0 20px 0;
+
+    .p-images {
+        margin: 0 30px 0 0;
+    }
+
+    img {
+        width: 100px;
+    }
+}

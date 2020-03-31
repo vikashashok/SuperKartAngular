@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'Segoe UI';
+    src: url("/assets/fonts/Segoe UI.woff") format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Segoe UI Bold';
+    src: url("/assets/fonts/Segoe UI Bold.woff") format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Segoe UI Italic';
+    src: url("/assets/fonts/Segoe UI Italic.woff") format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Segoe UI Bold Italic';
+    src: url("/assets/fonts/Segoe UI Bold Italic.woff") format("woff");
+    font-display: swap;
+}
+body {
+	font-family: 'Segoe UI';
+}

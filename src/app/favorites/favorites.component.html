@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="row">
+        <ng-container *ngIf="noFavorites">
+            <h2 class="nofav-msg" >Sorry! We couldn't find any product in favorites. Please <a href="/">click here</a> to go back to Product catalog page.</h2>
+        </ng-container>
+        <ng-container *ngIf="!noFavorites">
+            <div class="">
+                <h2 class="fav-header">Your favorites</h2><br/>
+                <ng-container *ngFor="let prod of favorites;let i = index">
+                    <div class="latest-prod">
+                        <div class="p-images">
+                            <img [src]="prod.imgPath" [alt]="prod.title"/>
+                        </div>
+                        <div>
+                            <h3 class="p-name">
+                                <a [routerLink]="['/category/productdetails', prod.id]" routerLinkActive="active">{{prod.title}}</a>
+                            </h3>
+                            <h4 class="p-prize">{{prod.price}}</h4>
+                        </div>
+                    </div>
+                </ng-container>
+            </div>
+        </ng-container>
+    </div>
+</div>

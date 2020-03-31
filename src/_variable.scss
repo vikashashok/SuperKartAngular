@@ -1,0 +1,28 @@
+$white: #ffffff;
+$black: #000000;
+:root {
+    --primary-color: #302ae6;
+    --secondary-color: #000000;
+    --font-color: #777575;
+    --bg-color: #ffffff;
+    --heading-color: #292922;
+    --bg-nav-color: #f8f8f8;
+    --collec-color: #ffffff;
+    --news-color:#faf9ff;
+    --sub-news-color: #302ae6;
+  }
+  
+  [data-theme="dark"] {
+    --primary-color: #ffffff;
+    --secondary-color: #ffffff;
+    --font-color: #ffffff;
+    --bg-color: #161625;
+    --heading-color: #818cab;
+    --bg-nav-color: #161625;
+    --collec-color: #0a63f8;
+    --news-color:#0a63f8;
+    --sub-news-color: #000000;
+  }
+  
+$grey: #777575;
+$fa-font-path : "~font-awesome/fonts/";

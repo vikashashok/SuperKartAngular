@@ -1,0 +1,87 @@
+@import "../../variable.scss";
+.footer {
+    padding-top: 115px;
+    .f-title{
+        font-size: 16px;
+        font-weight: bold;
+        font-family: segoe ui;
+        margin-bottom: 27px;
+        color: var(--secondary-color);
+    }
+    p{
+        color: $grey;
+        font-size: 14px;
+        font-family: segoe ui;
+        font-weight: 600;
+    }
+    .f-newsletter{
+        padding-right: 0;
+        label{
+            color: $grey;
+            font-size: 0;
+        }
+        #email-news1{
+            height: 40px;
+            border-radius: 0;
+            font-size: 12px;
+            display: inline-block;
+            width: 321px;
+            border: none;
+            background-color: #faf9ff;
+            @media (min-width: 576px) and (max-width: 1200px){
+                width: 80%;
+            }
+        }
+        .sub-news{
+            display: inline-block;
+            height: 40px;
+            position: relative;
+            top: 4px;
+            width: 42px;
+            background-color: #005efb;
+            border: none;
+            cursor: pointer;
+            font-size: 0;
+            &:after{
+                content: "\2192";
+                font-size: 23px;
+                color: white;
+                position: relative;
+                top: -3px;                
+            }            
+        }
+    }
+    .insta-feeds{
+        padding-left: 30px;
+    }
+    .insta-pics{
+        .position-relative{
+            margin: 5px 10px 10px 0;
+            width: 48px;
+            height: 48px;
+            display: inline-block;
+        }
+        img{
+           
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            object-fit: cover;
+
+        }
+    }
+    .so-icons .fa {
+        color: #91939f;
+        padding-right: 25px;
+        font-size: 14px;
+    }
+    .cpy-rgt{
+        text-align: center;
+        margin: 60px 0 124px;
+        color: $grey;
+        font-size: 14px;
+        font-family: segoe ui;
+        display: inline-block;
+        width: 100%;
+    }
+}

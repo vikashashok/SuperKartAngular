@@ -1,0 +1,62 @@
+<h3 mat-dialog-title [innerHTML]="type+' Product' | titlecase"></h3>
+<mat-dialog-content>
+    <ng-container *ngIf="type !== 'delete'">
+        <form #productForm="ngForm" class="col-md-11">
+            <div class="form-group">
+                <label for="prodTitle">Title</label>
+                <input type="text" class="form-control" name="title" id="prodTitle" [(ngModel)]="product.title" #productTitle="ngModel" required/>
+                <div *ngIf="productTitle.invalid && (productTitle.dirty || productTitle.touched)" class="alert alert-danger">
+                    <div >Product Title is required</div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="description">Description</label>
+                <input type="text" class="form-control" name="description" id="description" [(ngModel)]="product.description" #productDescription="ngModel" required/>
+                <div *ngIf="productDescription.invalid && (productDescription.dirty || productDescription.touched)" class="alert alert-danger">
+                    <div >Product description is required</div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="price">Price</label>
+                <input type="text" class="form-control" name="price" id="price" [(ngModel)]="product.price" #productPrice="ngModel" required/>
+                <div *ngIf="productPrice.invalid && (productPrice.dirty || productPrice.touched)" class="alert alert-danger">
+                    <div >Product price is required</div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="id">ID</label>
+                <input type="text" class="form-control" name="id" id="id" [(ngModel)]="product.id" #productId="ngModel" required/>
+                <div *ngIf="productId.invalid && (productId.dirty || productId.touched)" class="alert alert-danger">
+                    <div >Product ID is required</div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="imgPath">Choose Image file to upload</label><br/>
+                <input type="file" (change)="detectFiles($event)" class="" name="imgPath" id="imgPath" [(ngModel)]="product.imgPath" #productImageFile="ngModel" [required]="type == 'add'"/>
+                <div *ngIf="productImageFile.invalid && (productImageFile.dirty)" class="alert alert-danger">
+                    <div >Image file is required</div>
+                </div>
+            </div>
+            <div *ngIf="currentUpload != null">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-animated" [ngStyle]="{ 'width': currentUpload?.progress + '%' }"></div>
+                </div>
+                Progress: {{currentUpload?.name}} | {{currentUpload?.progress}}% Complete
+            </div>
+            <div class="form-group float-left">
+                <button class="btn btn-primary" (click)="closeDialog()">Cancel</button>
+            </div>
+            <div class="form-group float-right">
+                <button class="btn btn-primary mr-3" (click)="saveProduct(productForm)" [disabled]="!productForm.form.valid">Save</button>
+                <button class="btn btn-primary" (click)="productForm.reset()">Reset</button>
+            </div>
+        </form>
+    </ng-container>
+    <ng-container *ngIf="type === 'delete'">
+        <div>Are you sure you want to delete the product?</div>
+        <div class="form-group float-right">
+            <button class="btn btn-primary mr-3" (click)="deleteProduct()">Yes, delete</button>
+            <button class="btn btn-primary" (click)="closeDialog()">Cancel</button>
+        </div>
+    </ng-container>
+</mat-dialog-content>

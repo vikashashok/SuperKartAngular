@@ -1,0 +1,71 @@
+<div class="container-fluid top-sub-menu">
+    <div class="container d-none d-sm-block">
+        <div class="row">
+            <div class="sub-nav">
+                <div class="call-us">CALL-US: 021 44 6578 3739 938</div>
+                <div class="profile-sec">
+                    <ul class="">
+                        <li>LOGIN/REGISTER</li>
+                        <li>MY ACCOUNT</li>
+                        <li>CONTACT US</li>
+                    </ul>
+                    <div class="theme-switch-wrapper">
+                        <label class="theme-switch" for="checkbox">
+                            <input type="checkbox" id="checkbox" (change)="changeTheme($event)"/>
+                            <div class="slider round"></div>
+                        </label>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="navigation">
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-light navbar-expand-lg">
+                <a href="#" class="logo mr-auto"><img src="../../assets/logo.png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse w-100 in" id="collapsingNavbar">
+                    <ul class="navbar-nav ml-10">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item sub-menu dropdown">
+                            <a class="nav-link" href="#product-slider-section">SHOP</a>
+                        </li>
+                        <li class="nav-item sub-menu dropdown">
+                            <a class="nav-link" href="#">BLOG</a>
+                        </li>
+                        <li class="nav-item sub-menu dropdown">
+                            <a class="nav-link" href="#">PAGES</a>
+                        </li>
+                        <li class="nav-item sub-menu dropdown">
+                            <a class="nav-link" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav w-100 justify-content-end profile-cart">
+                        <li class="nav-item">
+                            <i class="fa fa-search"></i>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/admin" title="admin"><i class="fa fa-user"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/favorites" title="favorites">
+                                <i class="fa fa-heart">
+                                    <span class="fav-badge" [innerHTML]="favCount"></span>
+                                </i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <i class="fa fa-shopping-cart"></i>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</div>
